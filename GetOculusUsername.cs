@@ -35,10 +35,12 @@ namespace com.A_Tasty_Melon.SkwurlRunner
                 string userName = user.OculusID;
                 string displayName = user.DisplayName;
 
-                OculusUserName = userName;
-                OculusDisplayName = displayName;
-
-                PhotonNetwork.LocalPlayer.NickName = OculusDisplayName;
+                //OculusUserName = userName;
+                //OculusDisplayName = displayName;
+            }
+            else if (OculusDisplayName == null || OculusUserName == null)
+            {
+                OculusDisplayName = "BingusCheese";
             }
             else
             {

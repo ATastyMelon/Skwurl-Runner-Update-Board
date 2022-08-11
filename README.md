@@ -1,5 +1,4 @@
-# Skwurl-Runner-Moderation
+# Skwurl-Runner-Update-Board
 
-List of banned players in Skwurl Runner
+The update board for Skwurl Runner
 
-Oh and Skwurl Mods and Admins
